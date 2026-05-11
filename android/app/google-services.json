@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799885128046",
+    "project_id": "gram-clone-firebase-flutter",
+    "storage_bucket": "gram-clone-firebase-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799885128046:android:ca370b082bcfe90820117f",
+        "android_client_info": {
+          "package_name": "com.example.instagramclone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNssy8wjOIkwVRh428iY37WbfkOb3orXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:instagramclone/state/auth/backend/authenticator.dart';
 import 'firebase_options.dart';
 
 void main() async {
@@ -38,7 +39,15 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Home Page'), backgroundColor: Colors.black45),
-      body: Center(child: Text('Flutter project')),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            final result = Authenticator().loginWithGoogle();
+            print('Authentication result ${result.toString()}');
+          },
+          child: const Text('Sign in with Google'),
+        ),
+      ),
     );
   }
 }
